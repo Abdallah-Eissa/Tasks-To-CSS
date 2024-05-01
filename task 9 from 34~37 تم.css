@@ -1,0 +1,76 @@
+/*Assign 1*/
+        div {
+            background-color: #eee;
+            width: 300px;
+            height: 60px;
+            margin: auto;
+            text-align: center;
+            font-size: x-large;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        :empty {
+            background-color: red;
+        }
+/* ------------------------------------------------------------------------------------------------ */
+/*Assign 2 */
+/* there is a problem  */
+        div {
+            width: 1000px;
+            padding: 20px;
+            background-color: slategray;
+            text-align: center;
+            font-size: 40;
+            margin: auto;
+            position: relative;
+        }
+        div::first-letter {
+            position: absolute;
+            background-color: red;
+            width: 30px;
+            height: 30px;
+            left: 0;
+            top: -30;
+            display: none;
+        }
+/* ------------------------------------------------------------------------------------------------ */
+/*Assign 3 */
+        p .data-person { 
+background-color: cadetblue;
+padding: 10px;
+
+}
+/* ------------------------------------------------------------------------------------------------ */
+/*Assign 4*/
+        p {
+            background-color: #eee;
+            width: 600px;
+            padding: 20px;
+            font-size: 30px;
+            margin-left: 100px;
+            counter-increment: name;
+            position: relative;
+        }
+
+        p::before {
+            content: counter(name);
+            position: absolute;
+            left: -90px;
+            width: 50px;
+            margin-top: -20px;
+            background-color: red;
+            padding: 20px;
+            text-align: center;
+        }
+
+        p::after {
+            content: '';
+            background-color: red;
+            width: 3px;
+            padding: 4px;
+            height: 66px;
+            position: absolute;
+            right: -12px;
+            margin-top: -20px;
+        }

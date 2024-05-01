@@ -1,0 +1,58 @@
+/*Assign 1*/
+            div.parent {
+                width: 1000px;
+                min-height: 230px;
+                background-color: darkgray;
+            }
+            div.parent div.full {
+                background-color: aqua;
+                text-align: center;
+                padding: 10px;
+                margin-left: 15px;
+                width: calc((100% - (30px + (2*10px))) / 1);
+                border-top: solid 15px darkgray;
+            }
+            div.parent div.child1 {
+                background-color: aqua;
+                text-align: center;
+                padding: 10px;
+                margin-left: 15px;
+                margin-top: 15px;
+                float: left;
+                width: calc((100% - ((4*15px) + (6*10px))) / 3);
+            }
+            div.parent div.child2 {
+                background-color: aqua;
+                text-align: center;
+                padding: 10px;
+                margin-left: 15px;
+                margin-top: 15px;
+                float: left;
+                width: calc((100% - ((3*15px) + (4*10px))) / 2);
+            }
+            div.parent div.child4 {
+                background-color: aqua;
+                text-align: center;
+                padding: 10px;
+                margin-left: 15px;
+                margin-top: 15px;
+                float: left;
+                width: calc((100% - ((5*15px) + (8*10px))) / 4);
+            }
+/* ------------------------------------------------------------------------------------------------ */
+/*Assign 2*/
+            div {
+                margin: 20px auto;
+                width: 300px;
+                font-weight: bold;
+                font-size: 1rem;
+                padding: 20px;
+                background-color: rgb(142, 147, 147);
+                color: black;
+            }
+            .one {
+                background-color: rgb(142 147 147 / .1);
+            }
+            .two {
+                opacity: 0.1;
+            }

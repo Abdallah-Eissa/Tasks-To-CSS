@@ -1,0 +1,169 @@
+/* Assign 1 */
+        div {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+        }
+
+        div.green {
+            background-color: aqua;
+            margin: 30px;
+            z-index: 333;
+        }
+
+        div.red {
+            background-color: red;
+            margin: 40px;
+            z-index: 444;
+        }
+
+        div.blue {
+            background-color: blue;
+            margin: 20px;
+            z-index: 222;
+        }
+
+        div.black {
+            background-color: black;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+/* ------------------------------------------------------------------------------------------------ */
+/*Assign 2*/
+        div {
+            text-align: center;
+            background-color: aliceblue;
+            width: 400px;
+            font-size: 17px;
+            border: solid;
+            border-color: red blue;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        div span.top-left {
+            position: absolute;
+            top: 22px;
+            left: 0px;
+            background-color: rgb(95, 95, 223);
+            width: 30px;
+            margin: 15px;
+            border-right: solid red;
+        }
+
+        div span.bottom-left {
+            position: absolute;
+            top: 145px;
+            border-right: red solid;
+            left: 0px;
+            background-color: rgb(95, 95, 223);
+            width: 30px;
+            margin: 15px;
+        }
+
+        div span.top-right {
+            position: absolute;
+            top: 37px;
+            left: 453;
+            border-left: red solid;
+            background-color: rgb(95, 95, 223);
+            width: 30px;
+        }
+
+        div span.bottom-right {
+            position: absolute;
+            top: 160px;
+            left: 453px;
+            border-left: red solid;
+            background-color: rgb(95, 95, 223);
+            width: 30px;
+        }
+/* ------------------------------------------------------------------------------------------------ */
+/*Assign 3*/
+        ul.parent {
+            width: 400px;
+        }
+
+        ol {
+            padding: 10px;
+        }
+
+        li.q {
+            background-color: #eee;
+            padding-top: 10px;
+            padding-left: 10px;
+            list-style: inside none;
+        }
+
+        ol.child1 li {
+            padding: 5px;
+            background-color: white;
+            margin-left: 30px;
+            margin-bottom: 10px;
+            list-style: outside decimal;
+        }
+
+        li.w {
+            background-color: #eee;
+            padding-top: 10px;
+            padding-left: 10px;
+            list-style: inside none;
+            margin-top: 10px;
+        }
+
+        ol.child2 li {
+            padding: 5px;
+            background-color: white;
+            margin-left: 30px;
+            margin-bottom: 10px;
+            list-style: outside upper-roman;
+        }
+
+        li.e {
+            background-color: #eee;
+            padding-top: 10px;
+            padding-left: 10px;
+            list-style: inside none;
+            margin-top: 10px;
+        }
+
+        ul.child3 {
+            padding: 10px;
+        }
+
+        ul.child3 li {
+            background-color: white;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+/* ------------------------------------------------------------------------------------------------ */
+/*Assign 4*/
+        table {
+            width: 700px;
+            text-align: center;
+            background-color: #eee;
+            text-transform: capitalize;
+        }
+
+        table td {
+            padding: 10px;
+            background-color:darkgrey;
+            border-spacing: 20px;
+        }
+
+        table thead td {
+            background-color: black;
+            color: white;
+        }
+
+        span.q {
+            background-color: royalblue;
+            padding: 5px;
+            margin: 2px;
+        }
+
+        span.w {
+            background-color: red;
+            padding: 5px;
+            margin: 2px;
+        }

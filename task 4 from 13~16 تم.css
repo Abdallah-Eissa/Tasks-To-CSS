@@ -1,0 +1,25 @@
+/*Assign 1 */
+        div div span.title {
+            color: red;
+        }
+
+        span.title {
+            color: blue;
+        }
+        .parent p,
+        .title {
+            color: green;
+        }
+/* ------------------------------------------------------------------------------------------------ */
+/*Assign 2*/
+
+        div {
+            margin: 40px;
+            padding: 20px;
+            width:fit-content;
+            background-color: red;
+        }
+        .one {
+            width: 400px;
+            height: 20px;overflow: hidden;
+        }

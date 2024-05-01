@@ -1,0 +1,89 @@
+                    /* ----------------------------------- */
+                    /*           assign 1          */
+/* Any Element With Class Title */
+/*.title {
+}*/
+
+/* Any Element With id Title */
+/*#nav {
+}*/
+
+/* Any Element With tag Name Title  */
+/*div {
+}*/
+
+/* Any Element With tag Name Title  */
+/*h2 {
+}*/
+                    /* ----------------------------------- */
+                    /*           assign 2          */
+/*<!-- external style sheet  -->
+<link rel="stylesheet" href="css/file.css" />
+
+<!-- internal style sheet -->
+<style>
+p {
+color: red;
+}
+</style>*/
+
+/*<!-- inline style sheet  -->
+<p style="color: blue;">This Is Our Paragraph</p>*/
+                    /* ----------------------------------- */
+                    /*           assign 3          */
+/*<!-- Write Path -->
+<link rel="stylesheet" href="{ assets/css/master.css }" />*/
+                    /* ----------------------------------- */
+                    /*           assign 4          */
+/*<!-- Write Path -->
+<link rel="stylesheet" href="{ ../source/main.css }" />*/
+                    /* ----------------------------------- */
+                    /*           assign 5          */
+/* Valid  */
+/*._user-name {
+}*/
+
+/* Valid  */
+/*.-user-name {
+}*/
+
+/* Not Valid  */
+/*.1user-name {
+}*/
+
+/* NOt Valid */
+/*.@user-name {
+}*/
+
+/* Not Valid  */
+/*.user@name {
+}*/
+
+/* Valid  */
+/*._user10name {
+}*/
+
+/* Valid  */
+/*.u {
+}*/
+                    /* ----------------------------------- */
+                    /*           assign 6          */
+/* Bad Practice */
+/*.USERNAME {
+}*/
+
+/* Bad Practice  */
+/*.UserName {
+}*/
+
+/* Best Practice  */
+/*.user-name {
+}*/
+
+/* Bad Practice */
+/*.userName {
+}*/
+
+/* Bad Practice  */
+/*.usernameprofile {
+}*/

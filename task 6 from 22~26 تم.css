@@ -1,0 +1,72 @@
+/*Assign 1*/
+        div {
+            padding: 20px;
+            width: 400px;
+            text-align: center;
+            border: 5px solid red;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+        p {
+            background-color: #eee;
+            border: inherit;
+            padding: inherit;
+        }
+
+        .w {
+            padding: 20px;
+            width: 400px;
+            text-align: center;
+            border: 5px solid rgb(9 82 88 /80%);
+            margin: auto;
+            margin-top: 40px;
+            
+        } 
+/* ------------------------------------------------------------------------------------------------ */
+/*Assign 2*/
+        p.q {
+            padding: 20px;
+            margin: auto;
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300px;
+        }
+        p.w {
+            padding: 20px;
+            margin: auto;
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 35px;
+            font-family: "Segoe UI Black";
+            font-weight: 700;
+        }
+        p.e {
+            padding: 20px;
+            margin: auto;
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 25px;
+            font-family: "Bodoni MT Black";
+            font-weight: 400;
+        }
+/* ------------------------------------------------------------------------------------------------ */
+/*Assign 3 */
+        p {
+            padding: 25px;
+            margin: auto;
+            text-align: center;
+            text-transform: capitalize;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p.q {
+            font-size: 5rem;
+        }
+        p.w {
+            font-size: 4rem;
+        }
+        p.e {
+            font-size: 3rem;
+        }
